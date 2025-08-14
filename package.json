@@ -4,7 +4,9 @@
   "description": "temporary repo to store code for clerofy s3 upload testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node --transpile-only src/app.ts",
+    "start" : "node dist/server.js"
   },
   "keywords": [],
   "author": "",
